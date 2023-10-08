@@ -1,0 +1,6 @@
+altair
+numpy
+pandas
+pydeck
+streamlit
+-r https://github.com/snowflakedb/snowflake-connector-python/blob/main/tested_requirements/requirements_311.reqs
