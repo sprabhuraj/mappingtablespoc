@@ -8,7 +8,7 @@ st.title("Business Mapping Editor")
 #session = get_active_session()
 
 connection_parameters = {
- "account": "JCI.EDP_DOCUMENT_AI",
+ "account": "cub02553",
  "user": "JSOLIAP",
  "password": "Winter123",
  "role": "SF_BUILD_NATIVE_APPS_INTERNAL",  # optional
