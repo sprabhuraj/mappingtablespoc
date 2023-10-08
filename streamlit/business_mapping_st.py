@@ -1,10 +1,21 @@
 import streamlit as st
+from snowflake.snowpark import Session
 from snowflake.snowpark.context import get_active_session
 
 st.title("Business Mapping Editor")
 
 # Get the current session context
-session = get_active_session()
+#session = get_active_session()
+
+connection_parameters = {
+ "account": "JCI.EDP_DOCUMENT_AI",
+ "user": "JSOLIAP",
+ "password": "Winter123",
+ "role": "SF_BUILD_NATIVE_APPS_INTERNAL",  # optional
+ "warehouse": "LAB_POC_WH"  # optional
+}  
+
+session = Session.builder.configs(connection_parameters).create()
 
 column_configuration = {
     "Oppty_GCoE_Branch_Type": st.column_config.SelectboxColumn(
