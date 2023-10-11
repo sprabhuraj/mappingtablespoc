@@ -12,7 +12,8 @@ connection_parameters = {
  "user": "JSOLIAP",
  "password": "CpVhen9bwuhG7Zg",
  "role": "SF_BUILD_NATIVE_APPS_INTERNAL",  # optional
- "warehouse": "LAB_POC_WH"  # optional
+ "warehouse": "LAB_POC_WH",  # optional
+ "database": "BUSINESS_MAPPING_APP"
 }  
 
 session = Session.builder.configs(connection_parameters).create()
