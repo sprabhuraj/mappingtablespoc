@@ -10,7 +10,7 @@ st.title("Business Mapping Editor")
 connection_parameters = {
  "account": "cub02553",
  "user": "JSOLIAP",
- "password": "CpVhen9bwuhG7Zg",
+ "password": "",
  "role": "SF_BUILD_NATIVE_APPS_INTERNAL",  # optional
  "warehouse": "LAB_POC_WH",  # optional
  "database": "BUSINESS_MAPPING_APP"
